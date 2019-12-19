@@ -15,11 +15,11 @@ vagrant up
 ```
 in the command line run the following code to enter into the virtual machine:
 ```
-vagrant ssh
+vagrant ssh app
 ```
 in the command line run the following code to enter into the app file:
 ```
-cd /app
+cd /home/ubuntu/app
 ```
 in the command line run the following code to install the npm (node packaging manager):
 ```
