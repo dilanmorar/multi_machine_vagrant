@@ -49,7 +49,7 @@ Vagrant.configure("2") do |config|
     db.vm.synced_folder "environment/db", "/home/ubuntu/environment"
   end
   # configure.vm.provision "ansible" do |ansible|
-  #   ansible.playbook =
+  #   ansible.playbook = "playbook.yml"
 
 
 end
