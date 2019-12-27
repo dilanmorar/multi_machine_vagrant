@@ -33,8 +33,15 @@ npm start
 ## Loading the App
 
 - in web browser type http://development.local:3000/
+- to see the posts in the browser type in http://development.local:3000/posts
 
 ## Testing
 
 - download ruby
 - install bundle
+
+## Using Ansible
+
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt update
+sudo apt install ansible
